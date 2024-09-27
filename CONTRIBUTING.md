@@ -1,8 +1,41 @@
-## Contributing to expressjs.com
+# Contributing to expressjs.com
 
-This repository is only for issues related to the website [http://expressjs.com](http://expressjs.com). For issues related to Express, the framework, go to [https://github.com/expressjs/express](https://github.com/expressjs/express).
+Welcome to the repository for [http://expressjs.com](http://expressjs.com),  the official documentation repository for all ExpressJS documentation. 
 
-Feel free to make changes to the template files or the document files. The supporting docs are located in their respective directories, and the API docs are located under the `_includes` directory.
+We welcome contributions! These are just some typical problem areas. We welcome fixes or improvements to these or any other part of the site:
+- **Website Related**: display or screen sizing problems, mobile responsiveness issues, missing or broken accessibility features, website outages, broken links
+- **Content Related**: spelling errors, incorrect/outdated Express documentation
+- **Translation Related**: spelling errors, incorrect/poorly translated words, adding new translations
+
+If you find a bug, or if you have an idea for a feature or enhancement to the website, please submit a new [issue](https://github.com/expressjs/expressjs.com/issues/new?assignees=&labels=&projects=&template=3other.md). We respond to ALL issues submitted. Please continue reading the guidelines below if you want more details on how to contribute.
+
+### This is the ExpressJS Documentation - Not the Express Framework
+
+If you are looking for the repository for the **Express framework**, you've come to the wrong place. This repository is only for issues related to the the ExpressJS website [http://expressjs.com](http://expressjs.com). For the Node framework Express repository, go to [https://github.com/expressjs/express](https://github.com/expressjs/express).
+
+## How to Contribute to expressjs.com
+
+*We are no longer accepting unsolicited pull requests*. Please only submit pull requests that follow our guided workflow.
+
+So you want to contribute to [expressjs.com](https://expressjs.com/)? You're in the right place!
+
+
+If you've found a problem that you want to fix, or have an idea for a site enhancement, the first step is to open an [issue](https://github.com/expressjs/expressjs.com/issues/new?assignees=&labels=&projects=&template=3other.md) and describe your proposal. The expressJS documentation team will respond with feedback, either approving or denying your proposal. We do read all submissions and try our best to always respond.
+
+After you've received approval, only then should you start your work and make any pull requests. We don't want your hard work to go to waste! If you really want to see you work get merged, and you do, please submit an issue first, and include as much detail about it as possible. Following 
+
+Submitted issues or PRs with the description left blank will almost certainly be rejected. 
+
+
+should be to open a new [issue](https://github.com/expressjs/expressjs.com/issues/new/choose).  
+
+Give as much detail as you can here. The docs team will respond with feedback, and   
+
+Feel free to make changes to the template files or the document files. The supporting docs are located in their respective language directories. For example, for the English middleware page under the resources tab
+:
+- /en/resources/middleware
+
+and the API docs are located under the `_includes` directory.
 
 Content on this site is licensed under a Creative Commons Attribution-ShareAlike 3.0 United States License.  See https://creativecommons.org/licenses/by-sa/3.0/us/ for a layman's summary; 
 See [LICENSE.md](LICENSE.md) for the full license.
