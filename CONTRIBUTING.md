@@ -16,22 +16,40 @@ We welcome fixes or improvements to these or any other part of the site. If you 
 
 Caveat: If you are looking for the repository for the **Express framework**, you've come to the wrong place. This repository is only for issues related to the the ExpressJS website [http://expressjs.com](http://expressjs.com). For the repository for the Node-based framework Express, go to [https://github.com/expressjs/express](https://github.com/expressjs/express).
 
-## Contributors guide to expressjs.com
+##  Getting Started
 
-So you want to contribute to [expressjs.com](https://expressjs.com/)? You're in the right place!
+So you want to contribute to [expressjs.com](https://expressjs.com/)? You're in the right place. 
 
-#### Step1: Open a new Issue
-If you've found a problem that you want to fix, or have an idea for a site enhancement, the first step is to open an [issue](https://github.com/expressjs/expressjs.com/issues/new?assignees=&labels=&projects=&template=3other.md). Give it a good title and be sure to fill in the description section, giving as much detail on your propsal as possible. If you leave the description section blank we will not read it, and it will almost certainly be rejected. Be sure to fill in the details.
+#### Step1: Opening a new Issue
+If you've found a problem that you want to fix, or have an idea for a site enhancement, the first step is to open an [issue](https://github.com/expressjs/expressjs.com/issues/new?assignees=&labels=&projects=&template=3other.md). Give it a good title and be sure to fill in the description section, giving as much detail on your propsal as possible. If you leave the description section blank we will not read it, and it will almost certainly be rejected. So be sure to fill in the details.
 
 
-The expressJS documentation team will respond, either approving or denying your proposal. We read all submissions and try our best to always respond with feedback. After you've received approval, *only then* should you start your work and make any pull requests. We don't want your hard work to go to waste! If you really want to see you work merged into a super popular open source project, and you do, please submit an issue first. Don't skip straigh to a pull request.
+The expressJS documentation team will respond, either approving or denying your proposal. We read all submissions and try our best to always respond with feedback. After you've received approval, *only then* should you start work, or make any pull requests. If you really want to see you work merged into a super popular open source project, and you do, please submit an issue first. Don't skip straigh to a pull request. We don't want your hard work to go to waste!
 
-#### Step2: Start work
+#### Step2: Get application and make changes
 
-After you've been approved, now you need the code. 
+After you've been approved, now you can clone the repo and get the code.
 - `git clone https://github.com/expressjs/expressjs.com.git`
 
-To view yourS
+Next you'll need to know where to look to find the sections where you need to make your changes.
+
+**Markdown Page Files**: 
+- These files make up the individual pages of the site and are where all the content is located.
+- Change these to make changes to individual pages' content or markup. 
+- Located under their respective lanuage directories. Ex. English middleware page is located at `en > resources > middleware.md`.
+
+**Template Files**
+- These file are page components that make up the user interface and periphery structure. Ex. Header, Footer, etc.
+- Change these to make changes to the page layout or stucture site-wide.
+- Located mainly under the the `_includes` and `_layouts` directories.
+
+**Blog Markdown Files**
+- These are the pages that make up the individual blog posts. However, if you want to contribute a blog post please
+follow the specific insructions for [How to write a blog post.](https://expressjs.com/en/blog/write-post.html)
+- Located under the `_posts` directory. 
+
+Page Template Files:
+
 
 You can follow the [Local Setup Guide](./README.md/#local-setup) to . 
 
