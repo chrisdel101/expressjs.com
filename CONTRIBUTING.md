@@ -1,20 +1,12 @@
 # Contributing to expressjs.com
 
-*We are no longer accepting unsolicited pull requests*. Before any PRs will be merged they must first be [submitted here](https://github.com/expressjs/expressjs.com/issues/new?assignees=&labels=&projects=&template=3other.md), and receive approval. If you're a first time contributor, follow our guided workflow below to [get started](#beginners-guide-to-contributing).
- 
- ---
+### The Offical Documentation of the Express Framework
 
 Welcome to the repository for [http://expressjs.com](http://expressjs.com),  the source of all official documentation for the Express framework. 
 
-We welcome contributions! Below  just some of the most typical problem areas, and where new help and ideas are welcomed:
-- **Website Related**: display or screen sizing problems, mobile responsiveness issues, missing or broken accessibility features, website outages, broken links, page structure or user interface enhancements
-- **Content Related**: spelling errors, incorrect/outdated Express documentation, adding missing content
-- **Translation Related**: spelling errors, incorrect/poorly translated words, adding new full site translations
-    - If you want to do a full site translation, there's a section specifically related to [translations](#contributing-translations) below.
+- *Please note: We are no longer accepting unsolicited pull requests*. Before any PRs will be merged they must first be submitted and approved. 
 
-If you find a bug, if you have an idea for a feature or enhancement to the website, or find a typo or missing section in the documentation, please submit a new [issue](https://github.com/expressjs/expressjs.com/issues/new?assignees=&labels=&projects=&template=3other.md). We try to respond to ALL issues submitted.
-
----
+If you are interested in contributing to expressjs.com, or have questions about to get started, lease see our [Contributors Guide](en\resources\contributing-docs.md)
 
 ### This is the ExpressJS Documentation - Not the Express Framework
 
