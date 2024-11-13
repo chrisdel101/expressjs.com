@@ -19,6 +19,6 @@ jobs:
             - name: Run scripts
               working-directory: .github/scripts
               run: |
-                bash ./get-contributing.sh
-                bash ./get-readmes.sh
-                node ./get-express-version.mjs  
+                echo "TESTING123" > ../../en/resources/contributing.md
+            - name: Verify file content
+              run: cat CONTRIB.md
