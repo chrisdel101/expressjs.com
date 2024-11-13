@@ -43,7 +43,7 @@ while IFS= read -r line; do
   echo "$line"
  
   if [[ -n "$local" ]]; then
-    cat "./$local" | \
+    cat "$local" | \
     # remove the top # headers from cp file
       sed -En '/^##|^[^#]/,$p' | \
       # remove any starting w NOTE: lines
