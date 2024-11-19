@@ -14,14 +14,14 @@ local=''
 while IFS= read -r line; do
   # this section removes prev lines after file loads - src/load set to non-empty 
   if [[ -n "$src" || -n "$local" ]]; then
-     #  if line eq level - level is num of ##s
-    if [[ "$line" == "$level"'#'*  || 
-    # line not a header)
-    "$line" != '#'* || 
-    # line is not a divider line
-    "$line" != "---" ]]; then
-      # echo "BREAK FOUND"
-      continue
+    # line not a horitzontal rule hr
+    if  [[ "$line" != "----"* ]]; then
+    #  if line eq level - level is num of ##s
+      if [[ "$line" == "$level"'#'*  || 
+      # line not a header)
+      "$line" != '#'* ]]; then                   
+        continue
+      fi
     fi
   fi
 
