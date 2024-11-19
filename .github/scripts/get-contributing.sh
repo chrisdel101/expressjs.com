@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEST="../../en/resources/contributing.md"
+DEST="./en/resources/contributing.md"
 
 # This script replaces the contents of a section with the contents from
 # the annotated source address.
@@ -17,7 +17,10 @@ while IFS= read -r line; do
      #  if line eq level - level is num of ##s
     if [[ "$line" == "$level"'#'*  || 
     # line not a header)
-    "$line" != '#'* ]]; then
+    "$line" != '#'* || 
+    # line is not a divider line
+    "$line" != "---" ]]; then
+      # echo "BREAK FOUND"
       continue
     fi
   fi
