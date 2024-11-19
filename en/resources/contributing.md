@@ -378,4 +378,4 @@ pull request.
 ---
 # Contributing to Expressjs.com {#expressjs-website-contributing}
 
-<!-- LOCAL: expressjs/expressjs.com ../../CONTRIBUTING.md -->
+<!-- LOCAL: expressjs/expressjs.com ./CONTRIBUTING.md -->
